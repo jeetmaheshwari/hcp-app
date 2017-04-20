@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="description" content="UI5 table example with local JSON model" />
+		<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+		
+		<title>SAP HANA Application</title>
+		
+		<!-- Load UI5, select gold reflection theme and the "commons" and "table" control libraries -->
+		<script id='sap-ui-bootstrap' type='text/javascript'
+			src='https://openui5.hana.ondemand.com/resources/sap-ui-core.js'
+			data-sap-ui-theme='sap_bluecrystal'
+			data-sap-ui-libs='sap.m,sap.ui.commons,sap.ui.table'></script>
+			
+		<script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="dist/loading.min.js"></script>
+		<script src="dist/jquery.loading.js"></script>
+		<script src="js/hcp.js"></script>
+		<script src="js/ml.js"></script>
+	
+		<link rel="stylesheet" type="text/css" href="css/hcp.css">
+		<link rel="stylesheet" type="text/css" href="dist/loading.min.css">
+	</head>
+
+	<body class='sapUiBody' onload='setTimeout(function() {hideDiv();}, 500);'>
+		<div id="cockpitContentPage-header" class="sapTntToolPageHeader">
+			<div id="__header0" data-sap-ui="__header0" data-sap-ui-fastnavgroup="true" role="toolbar" class="sapMIBar sapMTB sapMTB-Auto-CTX sapMTBInactive sapMTBNewFlex sapTntToolHeader sapUiSizeCompact">
+					<span id="__text5" data-sap-ui="__text5" class="hStyle sapMBarChild sapMText sapMTextMaxWidth sapUiSelectable" style="text-align:left;color:white;font-size:22px;font-weight:bold;padding-bottom:10px;">
+						<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>SAP HCP Dashboard</span>
+					<div id="__spacer1" data-sap-ui="__spacer1" class="sapMBarChild sapMTBSpacer sapMTBSpacerFlex"></div>
+					<input type="image" class="logout" src="images/logout.JPG" alt="Log out" name="submit" onclick="logout();"/>
+			</div>
+		</div>
+		<div id='content'>
+			<div id='formFields' />
+			<div id='tablePos' />
+			<div id='custPaymentPos' />
+		</div>
+		<!-- <div id="ajaxSpinnerContainer">
+     		<img id="ajaxSpinnerImage"/>
+		</div> -->
+	</body>
+</html>

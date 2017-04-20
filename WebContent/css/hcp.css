@@ -1,0 +1,117 @@
+div#cockpitContentPage-header {
+    background-color: #2f3c48;
+}
+
+#formFields .sapUiFormEdit.sapUiFormM .sapUiRespGridMedia-Std-Phone.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanS12), .sapUiFormEdit.sapUiFormM .sapUiRespGridMedia-Std-Tablet.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanM12), .sapUiFormEdit.sapUiFormM .sapUiRespGridMedia-Std-Desktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanL12), .sapUiFormEdit.sapUiFormM .sapUiRespGridMedia-Std-LargeDesktop.sapUiFormResGridCont>.sapUiFormElementLbl:not(.sapUiRespGridSpanXL12) {
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+
+.hStyle {
+	background: url('../images/sap_18.png') no-repeat;	
+	position: relative;		
+	margin:1% 2% 0 2%;	
+}
+
+.logout {
+	background:transparent;
+	border:none;
+}
+
+#ajaxSpinnerImage {
+    background:  url('../images/ajax-loader.gif') no-repeat center center;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	width:100px;
+	height:150px;
+	border-style:none;
+	margin: -50px 0px 0px -50px;
+	display:none;
+}
+
+#tablePos {
+	width:1300px;
+	position: absolute;
+	margin: -65px 45px 105px 30px;
+	font-family:"arial";
+}
+
+#formFields {
+	width:650px;
+	height:300px;
+	margin: 18px 45px 0px 30px;
+}
+
+.sapMText {
+    font-size: 0.75rem;
+    font-family: sans-serif;
+    line-height: normal;
+    text-align:center !important;
+}
+
+#tablePos .sapMLabel {
+    color: #000000;
+    font-size: 13px;
+    font-weight:bold;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: text;
+    text-align:center !important;
+}
+
+#formFields .sapUiFormTitle {
+    color: #000000;
+    font-size: 17px;
+    font-weight:bold;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: text;    
+    font-weight:bold !important;
+}
+
+#formFields .sapMLabel {
+    color: #000000;
+    font-size: 13px;
+    font-weight:bold;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: text;
+    text-align:center !important;
+}
+
+#formFields #SubmitButton {
+	z-index: 9999 !important;
+	margin: 40px 0px 10px -310px !important;
+	float: left;
+	position:absolute;
+}
+
+#formFields #pmntVal {
+	margin: 0px 40px 10px -70px !important;
+	float: left;
+	position:absolute;
+}
+
+#formFields .sapUiRGLContainer {
+	height:215px;
+}
+
+
+#tablePos .sapUiTableCell span {
+	font-size: 12px;
+} 
+
+.sapUiFormEdit .sapMText {
+    display: block;
+    min-height: 2rem;
+    line-height: 1.375rem;
+    padding-top: 0.5125rem;
+    padding-bottom: 0.3125rem;
+}
